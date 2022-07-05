@@ -15,7 +15,8 @@ public:
 	// Sets default values for this pawn's properties
 	ABasePawn();
 
-
+protected:
+	void RotateTurret(FVector LookAtTarget);
 
 private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
@@ -33,7 +34,4 @@ private:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Super Duper Variables" , meta = (AllowPrivateAccess = "true"))
 	int32 EditAnywhere = 12;
-
-	
-
 };

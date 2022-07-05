@@ -35,6 +35,7 @@ void ATank::Tick(float DeltaTime)
         FHitResult HitResult;
         PlayerControllerRef -> GetHitResultUnderCursor(ECollisionChannel::ECC_Visibility, false, HitResult);
         DrawDebugSphere(GetWorld(), HitResult.ImpactPoint, 10.f, 5, FColor::Red, false, -1.0f);
+        RotateTurret(HitResult.ImpactPoint);
     }
 }
 
@@ -62,4 +63,4 @@ void ATank::Turn(float Value)
     float DeltaTime = UGameplayStatics::GetWorldDeltaSeconds(this);
     DeltaRotator.Yaw = Value * DeltaTime * TurnRate;
     AddActorLocalRotation(DeltaRotator, true);
-}
+ }
