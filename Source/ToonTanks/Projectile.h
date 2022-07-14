@@ -23,6 +23,7 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+
 private:
 
 	UPROPERTY(EditDefaultsOnly, Category = "Combat")
@@ -33,5 +34,7 @@ private:
 	UFUNCTION()
 	void OnHit(UPrimitiveComponent* HitComp,  AActor* OtherActor, UPrimitiveComponent* OtherComponent, FVector NormalImpulse, const FHitResult& Hit);
 
+	UPROPERTY(EditAnywhere)
+	float Damage = 50.f;
 
 };
