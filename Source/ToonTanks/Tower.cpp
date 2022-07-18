@@ -15,9 +15,12 @@ void ATower::Tick(float DeltaTime)
          // if in range rotate turret toward tank
         RotateTurret(Tank -> GetActorLocation());
     }
+}
 
-
-
+void ATower::HandleDestruction()
+{
+    Super::HandleDestruction();
+    Destroy();
 }
 
 void ATower::BeginPlay()

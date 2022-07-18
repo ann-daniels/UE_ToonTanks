@@ -21,6 +21,11 @@ ABasePawn::ABasePawn()
 
 }
 
+void ABasePawn::HandleDestruction()
+{
+	//TODO: Visual/sound effects
+}
+
 void ABasePawn::RotateTurret(FVector LookAtTarget)
 {
 	//the vector from turret mesh to the coursor(target)

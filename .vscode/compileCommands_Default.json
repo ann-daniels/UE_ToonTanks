@@ -63,5 +63,25 @@
         "file": "c:\\\\Anna\\\\UEProject3\\\\ToonTanksProjectSetup_4.25\\\\ToonTanksProjectSetup_4.25\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\HealthComponent.h",
         "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Anna\\UEProject3\\ToonTanksProjectSetup_4.25\\ToonTanksProjectSetup_4.25\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.210.rsp\"",
         "directory": "C:\\Users\\Ann\\Documents\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "c:\\\\Anna\\\\UEProject3\\\\ToonTanksProjectSetup_4.25\\\\ToonTanksProjectSetup_4.25\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\ToonTanksGameMode.cpp",
+        "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Anna\\UEProject3\\ToonTanksProjectSetup_4.25\\ToonTanksProjectSetup_4.25\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.210.rsp\"",
+        "directory": "C:\\Users\\Ann\\Documents\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "c:\\\\Anna\\\\UEProject3\\\\ToonTanksProjectSetup_4.25\\\\ToonTanksProjectSetup_4.25\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\ToonTanksGameMode.h",
+        "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Anna\\UEProject3\\ToonTanksProjectSetup_4.25\\ToonTanksProjectSetup_4.25\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.210.rsp\"",
+        "directory": "C:\\Users\\Ann\\Documents\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "c:\\\\Anna\\\\UEProject3\\\\ToonTanksProjectSetup_4.25\\\\ToonTanksProjectSetup_4.25\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\ToonTanksPlayerController.cpp",
+        "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Anna\\UEProject3\\ToonTanksProjectSetup_4.25\\ToonTanksProjectSetup_4.25\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.210.rsp\"",
+        "directory": "C:\\Users\\Ann\\Documents\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "c:\\\\Anna\\\\UEProject3\\\\ToonTanksProjectSetup_4.25\\\\ToonTanksProjectSetup_4.25\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\ToonTanksPlayerController.h",
+        "command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Anna\\UEProject3\\ToonTanksProjectSetup_4.25\\ToonTanksProjectSetup_4.25\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.210.rsp\"",
+        "directory": "C:\\Users\\Ann\\Documents\\UE_4.27\\Engine\\Source"
     }
 ]
