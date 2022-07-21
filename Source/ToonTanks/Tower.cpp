@@ -35,7 +35,7 @@ void ATower::CheckFireCondition()
 {
     if(Tank)
     {
-        if(InFireRange())
+        if(InFireRange() && Tank->bAlive)
         {
             Fire();
         }       
